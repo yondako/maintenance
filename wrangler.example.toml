@@ -1,0 +1,12 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "yondako-maintenance"
+main = "src/index.ts"
+compatibility_date = "2024-12-05"
+compatibility_flags = ["nodejs_compat"]
+
+# Bind a KV Namespace. Use KV as persistent storage for small key-value pairs.
+# Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#kv-namespaces
+[[kv_namespaces]]
+binding = "YONDAKO_MAINTENANCE"
+id = ""
+preview_id = ""
