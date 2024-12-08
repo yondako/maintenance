@@ -39,6 +39,6 @@ echo "👷 メンテナンスモードを有効にしました"
 curl -X POST "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/purge_cache" \
  -H "Authorization: Bearer $CF_ZONE_API_TOKEN" \
  -H "Content-Type: application/json" \
- --data '{"files":["https://www.arrow2nd.com/"]}'
+ --data '{"files":["https://yondako.com/"]}'
 
 echo "🧹 キャッシュを削除しました"
