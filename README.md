@@ -9,10 +9,6 @@
 3. `bun install` を実行
 4. `bun wrangler login` を実行
 
-```sh
-bun install
-```
-
 ## いろいろ
 
 ### デプロイ
