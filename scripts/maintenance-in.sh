@@ -11,7 +11,7 @@ echo "startDate=$currentDate" > "$tempFile"
 echo "endDate=$currentDate" >> "$tempFile"
 
 # 一時ファイルを編集
-nvim "$tempFile"
+vim "$tempFile"
 
 # 編集されたファイルからstartDateとendDateを取得
 startDate=$(grep '^startDate=' "$tempFile" | cut -d'=' -f2)
