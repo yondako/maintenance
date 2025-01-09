@@ -11,7 +11,7 @@
     "maintenance:out": "op run --env-file=.env -- ./scripts/maintenance-out.sh"
   },
   "devDependencies": {
-    "@cloudflare/vitest-pool-workers": "^0.5.2",
+    "@cloudflare/vitest-pool-workers": "^0.6.0",
     "@cloudflare/workers-types": "^4.20241205.0",
     "typescript": "^5.5.2",
     "vitest": "2.1.8",
